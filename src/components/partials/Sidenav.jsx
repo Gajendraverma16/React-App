@@ -54,7 +54,7 @@ const Sidenav = () => {
                     Website Information
                 </h1>
                 <Link className="hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5">
-                    <i className="mr-2 ri-information-fill"></i> About SCSDB
+                    <i className="mr-2 ri-information-fill"></i> About Movie Mania
                 </Link>
                 <Link className="hover:bg-[#6556CD] hover:text-white duration-300 rounded-lg p-5">
                     <i className="mr-2 ri-phone-fill"></i>

@@ -12,7 +12,7 @@ import HorizontalCards from "./partials/HorizontalCards";
 import Loading from "./Loading";
 
 const Moviedetails = () => {
-    document.title = "SCSDB | Movie Details";
+    document.title = "Movie Mania | Movie Details";
 
     const { pathname } = useLocation();
     const navigate = useNavigate();
