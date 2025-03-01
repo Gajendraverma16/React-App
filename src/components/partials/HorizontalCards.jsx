@@ -31,8 +31,8 @@ const HorizontalCards = ({ data, title }) => {
                                     d.original_title}
                             </h1>
                             <p className="">
-                                {d.overview.slice(0, 50)}...
-                                <span className="text-zinc-500"> more</span>
+                            {d.overview ? `${d.overview.slice(0, 50)}...` : "No description available"}
+                            <span className="text-zinc-500"> more</span>
                             </p>
                         </div>
                     </Link>
@@ -42,7 +42,7 @@ const HorizontalCards = ({ data, title }) => {
                     Nothing to show
                 </h1>
             )}
-        </div>
+        </div>  
     );
 };
 
